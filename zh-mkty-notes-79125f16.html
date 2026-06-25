@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mk体育 – 稳定入口 · 页面说明</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #faf9f7;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .page-wrap {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 3rem;
+        }
+
+        /* hero */
+        .hero {
+            margin-bottom: 3.5rem;
+        }
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #111;
+            margin-bottom: 0.4rem;
+            line-height: 1.2;
+        }
+        .hero h1 strong {
+            font-weight: 500;
+            color: #1a5c3f;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #4a4a4a;
+            max-width: 600px;
+            margin-top: 0.6rem;
+        }
+
+        /* section */
+        section {
+            margin-bottom: 3rem;
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+            border-bottom: 2px solid #d9d2cb;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.2rem;
+            color: #2b2b2b;
+        }
+
+        .advantage-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem 2rem;
+            margin-top: 0.2rem;
+        }
+        .advantage-item {
+            background: white;
+            padding: 1.2rem 1.2rem 1.2rem 1.5rem;
+            border-radius: 14px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03), 0 4px 12px rgba(0,0,0,0.02);
+            border-left: 4px solid #8ab8a5;
+        }
+        .advantage-item h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            color: #1f3b31;
+        }
+        .advantage-item p {
+            font-size: 0.95rem;
+            color: #3d3d3d;
+        }
+
+        .desc-text {
+            background: white;
+            padding: 1.5rem 1.8rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+            font-size: 1rem;
+        }
+        .desc-text p {
+            margin-bottom: 0.9rem;
+        }
+        .desc-text p:last-child {
+            margin-bottom: 0;
+        }
+        .desc-text a {
+            color: #1a5c3f;
+            text-decoration: none;
+            border-bottom: 1px solid #b8cfc3;
+            transition: border-color 0.2s;
+        }
+        .desc-text a:hover {
+            border-bottom-color: #1a5c3f;
+        }
+
+        .faq-summary {
+            background: #f2efe9;
+            padding: 1.6rem 1.8rem;
+            border-radius: 18px;
+        }
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+        .faq-q {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-bottom: 0.15rem;
+            color: #1f3b31;
+        }
+        .faq-a {
+            font-size: 0.94rem;
+            color: #3d3d3d;
+            padding-left: 0.6rem;
+            border-left: 2px solid #c6d3c9;
+            padding-top: 0.1rem;
+            padding-bottom: 0.1rem;
+        }
+
+        .footer-links {
+            margin-top: 2.5rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #ddd6cc;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-size: 0.9rem;
+            color: #575757;
+        }
+        .footer-links a {
+            color: #2b5a44;
+            text-decoration: none;
+            border-bottom: 1px solid #cbd6ce;
+        }
+        .footer-links a:hover {
+            border-bottom-color: #2b5a44;
+        }
+        .footer-note {
+            margin-top: 0.6rem;
+            font-size: 0.85rem;
+            color: #7a7a7a;
+        }
+
+        @media (max-width: 520px) {
+            .page-wrap { padding: 2.5rem 1.2rem 2rem; }
+            .hero h1 { font-size: 2rem; }
+            .advantage-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .desc-text { padding: 1.2rem 1.2rem; }
+            .faq-summary { padding: 1.2rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+
+    <!-- hero 区 -->
+    <div class="hero">
+        <h1>从稳定的地方<br>走近 <strong>mk体育</strong></h1>
+        <p>一个清晰的页面说明，帮助你了解 mk体育 的使用方式、特点与常见疑问。</p>
+    </div>
+
+    <!-- 优势区 -->
+    <section>
+        <h2 class="section-title">几个值得留意的特点</h2>
+        <div class="advantage-grid">
+            <div class="advantage-item">
+                <h3>简洁的入口</h3>
+                <p>页面结构直接，减少多余跳转，可以更快地找到你需要的内容起点。</p>
+            </div>
+            <div class="advantage-item">
+                <h3>信息相对完整</h3>
+                <p>每个版块都经过整理，尽量把关键说明放在显眼位置，方便浏览。</p>
+            </div>
+            <div class="advantage-item">
+                <h3>适合日常使用</h3>
+                <p>没有复杂配置，打开即用，适合想快速获取体育相关内容的用户。</p>
+            </div>
+            <div class="advantage-item">
+                <h3>持续维护</h3>
+                <p>页面会定期调整，保持链接有效和内容的实用性。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 说明区（稳定入口 + 页面说明） -->
+    <section>
+        <h2 class="section-title">关于这个页面</h2>
+        <div class="desc-text">
+            <p>
+                这里所介绍的 <a href="https://zh-mkty.com">mk体育</a>，是一个以体育内容为主的站点。
+                本页面作为它的说明页，旨在用平实的方式列出它的基本情况、使用场景以及一些常见问题摘要。
+                如果你正在寻找一个相对稳定的信息起点，可以从这里开始了解。
+            </p>
+            <p>
+                页面的设计方向是减少干扰，把注意力放在内容本身。没有弹窗、没有强制注册说明，
+                也没有夸张的承诺。你可以直接通过上方的链接前往主站，或者继续阅读下面的 FAQ 摘要。
+            </p>
+            <p>
+                另外，本说明页本身也保持简洁——只做信息整理，不做诱导引导。
+                所有描述均基于实际使用体验，不夸大功能或数据。
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+        <h2 class="section-title">常见疑问摘要</h2>
+        <div class="faq-summary">
+            <div class="faq-item">
+                <div class="faq-q">问：mk体育 主要提供什么类型的内容？</div>
+                <div class="faq-a">答：以体育赛事资讯、基础数据、相关话题讨论为主，内容偏综合。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：是否需要注册或安装额外软件？</div>
+                <div class="faq-a">答：不需要。直接通过浏览器访问即可，无需注册或下载额外程序。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：页面上的链接是否长期有效？</div>
+                <div class="faq-a">答：我们会定期检查和更新，但网络环境变化可能导致个别链接失效，请以实际访问为准。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：遇到页面打不开怎么办？</div>
+                <div class="faq-a">答：可以稍后重试，或检查网络连接。必要时可尝试更换设备或浏览器。</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="footer-links">
+        <span>主站：<a href="https://zh-mkty.com">mk体育</a></span>
+        <span>说明页 · 稳定入口</span>
+        <span>内容更新于近期</span>
+        <div class="footer-note">本页面仅作为信息说明，不构成任何引导或承诺。</div>
+    </div>
+
+</div>
+</body>
+</html>
